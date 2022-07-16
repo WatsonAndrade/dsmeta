@@ -61,7 +61,7 @@ function SalesCard() {
             </tr>
           </thead>
           <tbody>
-            {sales.map(sale => {
+            {sales.map((sale) => {
               return (
                 <tr key={sale.id}>
                   <td className="show992">{sale.id}</td>
